@@ -4,7 +4,10 @@ Data, code and outputs for the final report of **PL4246** Semester 1, AY2026/202
 
 The project estimates a partial-correlation network of the 51 STARS items (n = 182), then examines its macro-level structure, its community structure compared with the six established STARS subscales, and item-level node strength and bridging.
 
-Repository structure
+
+
+## Repository structure
+```text
 .
 ├── README.md
 ├── Data/
@@ -22,8 +25,9 @@ Repository structure
 │   ├── figure1_network.png        # Figure 1: network coloured by Louvain community
 │   └── sessionInfo.txt            # R and package versions used
 └── Scripts/
-    ├── dataset4.R                 # [describe what this script does]
+    ├── dataset4.R                 # Helper data set for network 
     └── Star Network Analysis.R    # Full analysis script (all steps below)
+```
 
 ## Data
 
