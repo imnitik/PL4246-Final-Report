@@ -57,7 +57,6 @@ Full session details are in `Output/sessionInfo.txt`.
 
 ## Notes
 
-- Item labels: items 1 to 5 appear as `it_1` to `it_5` in the outputs and items 6 to 51 as `i_6` to `i_51`.
 - `influenceR::bridging()` is computed on the whole network and does not use the Louvain community assignments, so a high bridging score does not by itself mean an item links different communities. This is discussed in the report.
 - Edge weights are absolute partial correlations, so the direction of associations is not retained.
 
